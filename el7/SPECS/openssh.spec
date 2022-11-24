@@ -20,13 +20,13 @@
 %global aversion 1.2.4.1
 
 # Do we want to disable building of x11-askpass? (1=yes 0=no)
-%global no_x11_askpass 0
+%global no_x11_askpass 1
 
 # Do we want to disable building of gnome-askpass? (1=yes 0=no)
-%global no_gnome_askpass 0
+%global no_gnome_askpass 1
 
 # Do we want to link against a static libcrypto? (1=yes 0=no)
-%global static_libcrypto 0
+%global static_libcrypto 1
 
 # Do we want smartcard support (1=yes 0=no)
 %global scard 0
